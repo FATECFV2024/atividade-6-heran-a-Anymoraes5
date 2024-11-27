@@ -9,7 +9,11 @@ public class Empregado {
         this.endereco = endereco;
     }
 
-    
+    public void imprimirInformacoes(){
+        System.out.println("Nome: "+ getNome());
+        System.out.println("Salário: "+ getSalario());
+        System.out.println("Endereço: "+ getEndereco());
+    }
 
     //metodos de acesso 
     public String getNome() {
