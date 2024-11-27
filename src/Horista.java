@@ -1,4 +1,3 @@
-import java.lang.reflect.Constructor;
 
 public class Horista extends Empregado{
     private double horas;
