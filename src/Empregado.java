@@ -7,8 +7,9 @@ public class Empregado {
     public Empregado(String nome, String endereco) {
         this.nome = nome;
         this.endereco = endereco;
-        this.salario = salario;
     }
+
+    
 
     //metodos de acesso 
     public String getNome() {
@@ -29,10 +30,6 @@ public class Empregado {
 
     public double getSalario() {
         return salario;
-    }
-
-    public void setSalario(double salario) {
-        this.salario = salario;
     }
 
     public double calcularIrpf(){
@@ -77,6 +74,7 @@ public class Empregado {
         else{
             return 7786.03*0.14;
         }
+
     }
     
 }
