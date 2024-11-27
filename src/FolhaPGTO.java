@@ -7,34 +7,24 @@ public class FolhaPGTO {
         men1 = new Mensalista("José","Rua abc","Junior");
         men1.calcularSalario();
         men1.calcularInss();
-        System.out.println("Nome: " + men1.getNome());
-        System.out.println("EnderecoNome: " + men1.getEndereco());
-        System.out.println("Salario: " +men1.getSalario());
-
-
+        men1.imprimirInformacoes();
+        
 
          //Empregados mensalistas
          men2 = new Mensalista("Ana","Rua sem fim","Senior");
          men2.calcularSalario();
          men2.calcularInss();
-         System.out.println("Nome: " + men2.getNome());
-         System.out.println("EnderecoNome: " + men2.getEndereco());
-         System.out.println("Salario: " +men2.getSalario());
-
+         men2.imprimirInformacoes();
 
          //horista
          hora1 = new Horista("Carlos", "Rua xyz", 20);
          hora1.calcularSalario();
-         System.out.println("Nome: " + hora1.getEndereco());
-         System.out.println("EnderecoNome: " + hora1.getEndereco());
-         System.out.println("Nome: " + hora1.getEndereco());
+         hora1.imprimirInformacoes();
 
 
          hora2 = new Horista("Cristina", "Rua do centro", 100);
          hora2.calcularSalario();
-         System.out.println("Nome: " + hora2.getEndereco());
-         System.out.println("EnderecoNome: " + hora2.getEndereco());
-         System.out.println("Nome: " + hora2.getEndereco());
+         hora2.imprimirInformacoes();
          
     }
 
